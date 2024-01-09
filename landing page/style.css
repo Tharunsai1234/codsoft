@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #FF6347; /* Orange-red color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    max-height: 50px;
+    width: auto;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-nav a {
+    color: #fff;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+/* Banner Styles */
+.banner-section-bg-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1200x800/?food') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Disable background image repetition */
+    background-size: cover; /* Cover the entire container */
+}
+
+.banner-heading {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #FFD700; /* Gold color */
+}
+
+.banner-caption {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.custom-button,
+.custom-outline-button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.custom-button {
+    background-color: #FFD700; /* Gold color */
+    color: #fff;
+}
+
+.custom-button:hover {
+    background-color: #fff;
+    color: #FFD700; /* Gold color on hover */
+}
+
+.custom-outline-button {
+    background-color: transparent;
+    border: 2px solid #FFD700; /* Gold color */
+    color: #FFD700; /* Gold color */
+}
+
+.custom-outline-button:hover {
+    background-color: #FFD700; /* Gold color on hover */
+    color: #fff;
+}
